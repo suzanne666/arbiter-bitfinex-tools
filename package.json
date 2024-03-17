@@ -1,0 +1,29 @@
+{
+  "name": "arbiter-bitfinex-tools",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suzanne666/arbiter-bitfinex-tools.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "dependencies": {
+    "arbiter-model-tools": "^1.0.0",
+    "arbiter-tools": "^1.0.0",
+    "bufferutil": "^3.0.3",
+    "node-fetch": "^1.7.3",
+    "utf-8-validate": "^3.0.4",
+    "ws": "^3.3.1"
+  }
+}
